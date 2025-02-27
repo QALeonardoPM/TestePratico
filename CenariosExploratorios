@@ -1,0 +1,74 @@
+## Cenários exploratórios imaginados para o sistema fictício
+
+Cenário Exploratório 1: Cadastro e Login
+- Nome do Teste: Testes Exploratórios de Cadastro e Login
+- Descrição do Teste: Realizar testes exploratórios no módulo de cadastro e login de usuários para identificar possíveis falhas e problemas de usabilidade.
+- Pré-condições do Teste:
+o	A plataforma EducSimulados deve estar acessível.
+o	O usuário deve ter acesso à internet.
+- Objetivos do Teste:
+o	Identificar falhas de usabilidade e segurança no processo de cadastro e login.
+o	Verificar a robustez do sistema contra entradas inválidas e tentativas maliciosas.
+- Passos do Teste (detalhado):
+1.	Navegar até a página de cadastro.
+2.	Testar diferentes combinações de entradas nos campos de cadastro (dados válidos e inválidos).
+3.	Verificar a mensagem de erro e a validação dos campos.
+4.	Realizar o cadastro com sucesso e tentar login com as novas credenciais.
+5.	Testar o fluxo de recuperação de senha.
+6.	Simular tentativas de login com dados incorretos e verificar a resposta do sistema.
+7.	Testar a funcionalidade de autenticação de dois fatores.
+- Resultado Real: (Preencher após execução do teste)
+
+Cenário Exploratório 2: Criação e Gestão de Simulados
+- Nome do Teste: Testes Exploratórios de Criação e Gestão de Simulados
+- Descrição do Teste: Realizar testes exploratórios no módulo de criação e gestão de simulados para identificar possíveis falhas e problemas de usabilidade.
+- Pré-condições do Teste:
+o	O instrutor deve estar cadastrado e logado na plataforma.
+o	O instrutor deve ter permissão para criar simulados.
+- Objetivos do Teste:
+o	Identificar falhas de usabilidade e funcionalidade na criação e gestão de simulados.
+o	Verificar a robustez do sistema contra entradas inválidas e ações inesperadas.
+- Passos do Teste (detalhado):
+1.	Navegar até a seção de criação de simulados.
+2.	Testar diferentes combinações de entradas nos campos de criação de simulados.
+3.	Adicionar e remover questões de diferentes tipos (múltipla escolha, dissertativas, verdadeiro/falso).
+4.	Salvar o simulado e verificar se todas as informações são armazenadas corretamente.
+5.	Editar o simulado e verificar se as alterações são salvas corretamente.
+6.	Tentar realizar ações não permitidas (ex: excluir questões obrigatórias) e verificar a resposta do sistema.
+- Resultado Real: (Preencher após execução do teste)
+
+Cenário Exploratório 3: Execução de Simulados pelos Alunos
+- Nome do Teste: Testes Exploratórios de Execução de Simulados
+- Descrição do Teste: Realizar testes exploratórios no módulo de execução de simulados pelos alunos para identificar possíveis falhas e problemas de usabilidade.
+- Pré-condições do Teste:
+o	O aluno deve estar cadastrado e logado na plataforma.
+o	Deve existir um simulado disponível para execução.
+- Objetivos do Teste:
+o	Identificar falhas de usabilidade e funcionalidade na execução de simulados.
+o	Verificar a robustez do sistema contra ações inesperadas e condições adversas.
+- Passos do Teste (detalhado):
+1.	Navegar até a seção de simulados disponíveis.
+2.	Iniciar um simulado e responder às questões.
+3.	Testar diferentes combinações de respostas e verificar o feedback imediato.
+4.	Verificar o comportamento do sistema ao tentar sair do simulado antes de concluir.
+5.	Testar o tempo de resposta do sistema durante a execução do simulado.
+6.	Submeter o simulado e verificar a correção automática e o feedback fornecido.
+- Resultado Real: (Preencher após execução do teste)
+
+Cenário Exploratório 4: Relatórios e Estatísticas de Desempenho
+- Nome do Teste: Testes Exploratórios de Relatórios e Estatísticas de Desempenho
+- Descrição do Teste: Realizar testes exploratórios no módulo de relatórios e estatísticas de desempenho para identificar possíveis falhas e problemas de usabilidade.
+- Pré-condições do Teste:
+o	O usuário deve estar logado na plataforma.
+o	Devem existir dados de desempenho para visualização e análise.
+- Objetivos do Teste:
+o	Identificar falhas de usabilidade e precisão nos relatórios e estatísticas de desempenho.
+o	Verificar a robustez do sistema contra ações inesperadas e entradas inválidas.
+- Passos do Teste (detalhado):
+1.	Navegar até a seção de relatórios de desempenho.
+2.	Selecionar diferentes opções de personalização dos relatórios.
+3.	Verificar a exibição correta das informações nos relatórios gerados.
+4.	Exportar os relatórios em diferentes formatos (PDF, CSV) e verificar a integridade dos dados exportados.
+5.	Testar diferentes combinações de filtros e verificar a atualização correta das estatísticas.
+6.	Realizar ações não permitidas (ex: inserir filtros inválidos) e verificar a resposta do sistema.
+- Resultado Real: (Preencher após execução do teste)
