@@ -1,0 +1,41 @@
+// Abrir a página inicial
+open    https://educsimulados.com
+
+// Clicar em "Entrar" (Canto superior direito)
+verifyElementPresent  link=Entrar
+click   link=Entrar
+
+// Preencher dados de login do Administrador
+type    id=username_field   admin@email.com
+type    id=password_field   SenhaAdmin123
+waitForElementPresent   id=login_button
+click   id=login_button
+verifyTextPresent    Bem-vindo, admin
+
+// Navegar para "Menu > Usuários"
+click   link=Menu
+click   link=Usuários
+
+// Preencher os dados de cadastro do novo usuário
+type    id=name_field      		 Teste QA
+type    id=email_field      		testeqa@email.com
+type    id=password_field   		Senha@123
+select  id=type_user_select 		Estudante
+select  id=language_select  		Português
+select  id=auth_method_select  	E-mail
+
+// Clicar no botão "Criar Conta"
+click   id=create_account_button
+
+// Verificar a mensagem de sucesso
+assertText    id=success_message   Cadastro realizado com sucesso
+
+// Inserir código de verificação enviado por e-mail (simulado)
+type    id=verification_code_field   123456
+click   id=verify_button
+
+// Captura de tela após verificação
+captureScreenshot    login_screen.png
+
+// Validar o redirecionamento para a tela de login
+verifyLocation   https://educsimulados.com/login
