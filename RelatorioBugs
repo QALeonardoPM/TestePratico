@@ -1,0 +1,46 @@
+## Simulação de três bugs fictícios do sistema EducSimulados
+
+Bug 1: Falha na Autenticação de Dois Fatores 
+- Título do bug: Falha na Autenticação de Dois Fatores 
+- Descrição detalhada: O sistema não está enviando o código de autenticação de dois fatores para o e-mail do usuário durante o processo de login. Sem o código, o usuário não consegue completar o login e acessar a plataforma.
+- Passos para reprodução:
+1.	Acessar a página de login.
+2.	Inserir as credenciais válidas (e-mail e senha).
+3.	Clicar em "Entrar".
+4.	Verificar que o sistema solicita o código de autenticação de dois fatores.
+5.	Aguardar o recebimento do e-mail com o código.
+6.	Verificar que o e-mail com o código de autenticação não é recebido.
+- Severidade: Crítico
+- Evidências: (prints/screenshots ou vídeos)
+o	Print da tela solicitando o código.
+o	Print da caixa de entrada do e-mail mostrando a ausência do e-mail com o código.
+
+Bug 2: Erro na Correção Automática das Questões Dissertativas
+- Título do bug: Erro na Correção Automática das Questões Dissertativas
+- Descrição detalhada: O sistema não está corrigindo corretamente as respostas das questões dissertativas. As respostas estão sendo marcadas como erradas, independentemente do conteúdo inserido pelo aluno.
+- Passos para reprodução:
+1.	Fazer login na plataforma como aluno.
+2.	Navegar até a seção de simulados disponíveis.
+3.	Iniciar um simulado que contenha questões dissertativas.
+4.	Responder às questões dissertativas com respostas válidas.
+5.	Submeter o simulado.
+6.	Verificar o feedback imediato e notar que todas as questões dissertativas foram marcadas como erradas.
+- Severidade: Alto
+- Evidências: (prints/screenshots ou vídeos)
+o	Print das respostas inseridas nas questões dissertativas.
+o	Print do feedback imediato mostrando as respostas dissertativas como erradas.
+
+Bug 3: Falha na Exportação de Relatórios em PDF
+- Título do bug: Falha na Exportação de Relatórios em PDF
+- Descrição detalhada: O sistema não está gerando corretamente os relatórios de desempenho em formato PDF. Ao tentar exportar um relatório em PDF, o arquivo gerado está corrompido e não pode ser aberto.
+- Passos para reprodução:
+1.	Fazer login na plataforma.
+2.	Navegar até a seção de relatórios de desempenho.
+3.	Selecionar um relatório para exportação.
+4.	Escolher o formato PDF para exportação.
+5.	Clicar em "Exportar".
+6.	Tentar abrir o arquivo PDF gerado e verificar que o arquivo está corrompido.
+- Severidade: Médio
+- Evidências: (prints/screenshots ou vídeos)
+o	Print da tela de seleção de relatórios para exportação.
+o	Print da mensagem de erro ao tentar abrir o arquivo PDF gerado.
