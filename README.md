@@ -1,5 +1,7 @@
 # TestePratico
 
+Obs: Todo conteúdo deste repositório é somente um exercício, a simulação é feita em um sistema fictício, os testes são simulações também.
+
 # Teste Automatizado - Cadastro de Novo Usuário
 Este projeto contém um script automatizado para validar o fluxo de cadastro de um novo usuário no sistema EducSimulados, utilizando Selenium IDE.
 
